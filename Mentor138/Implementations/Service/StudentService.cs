@@ -98,7 +98,7 @@ namespace Mentor138.Implementations.Service
             if (rowAffect > 0)
             {
                 response.Data = model;
-                response.StatusCode = 200;
+                response.StatusCode = 200; 
             }
             else
             {

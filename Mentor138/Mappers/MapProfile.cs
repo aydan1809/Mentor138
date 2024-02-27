@@ -14,5 +14,6 @@ public class MapProfile:Profile
             .ReverseMap();
         CreateMap<School, SchoolGetDto>().ReverseMap();
         //CreateMap<SchoolGetDto,School>();
+        
     }
 }
